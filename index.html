@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bs-5 pro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body style="height: 1000px">
+    <!-- header -->
+    <nav
+      class="navbar navbar-expand-sm p-0 shadow-sm position-fixed top-0 w-100 bg-light"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#"
+                >الصفحه الرئيسيه</a
+              >
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" href="#">معلومات عنا</a>
+            </li>
+
+            <li class="nav-item dropdown me-2">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                صفحات
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">صفحه 1</a></li>
+                <li><a class="dropdown-item" href="#">صفحه 2</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">صفحه 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">مدونه</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link" aria-current="page" href="#">اتصل بنا</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home -->
+    <section
+      id="carouselExampleControls"
+      class="carousel slide pt-1 mt-5 position-relative"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="slide-bg-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev justify-content-end"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button
+        class="carousel-control-next justify-content-start"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
+      <div
+        class="w-50 position-absolute top-0 start-0 p-4 text-white slide-content"
+      >
+        <h1>قالب HTML قوي الحد الأدنى من البناء</h1>
+        <p class="my-5">
+          نسعى لتحقيق أحلام عملائنا ، من خلال الجمع بين أفكارهم وأسلوب حياتهم
+          وميزانيتهم ​​مع تجربتنا الخاصة.
+        </p>
+        <button class="btn btn-outline-warning btn-lg text-white">
+          طلب اقتباس
+        </button>
+      </div>
+    </section>
+    <!-- about -->
+    <div class="about py-5 my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-12">
+            <div class="about__item pe-4">
+              <h2 class="text-muted">دون الغبار</h2>
+              <div
+                class="progress bg-warning w-25 mt-3"
+                style="height: 3px"
+              ></div>
+              <p class="my-5 fs-5 w-75 text-muted">
+                نسعى لتحقيق أحلام عملائنا ، من خلال الجمع بين أفكارهم وأسلوب
+                حياتهم وميزانيتهم ​​مع خبرتنا الخاصة وخبراتنا وأفضل الممارسات
+                لإنشاء منزل ممتع وعملي ومستدام وذو قيمة دائمة
+              </p>
+              <button
+                class="btn btn-outline-warning btn-lg text-dark text-opacity-50"
+              >
+                عرض جميع المشاريع
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="about__img">
+              <img
+                class="w-100"
+                src="project-slide1.jpg"
+                alt="project"
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="news py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-12 p-0">
+            <div class="news-item card">
+              <img src="service-item-bg-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">أفضل بناء</h5>
+                <p class="card-text text-secondary">
+                  الألم في حد ذاته مهم للغاية ، وسيتبعه ، وسيحدث في نفس الوقت
+                  الذي يحدث فيه بعض العمل العظيم والألم. للوصول إلى أدق التفاصيل
+                  ، ما هو تمريننا؟
+                </p>
+                <a href="#" class="btn btn-outline-warning text-muted fw-bold"
+                  >عرض التفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12 p-0">
+            <div class="news-item card">
+              <img src="service-item-bg-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">أفضل بناء</h5>
+                <p class="card-text text-secondary">
+                  الألم في حد ذاته مهم للغاية ، وسيتبعه ، وسيحدث في نفس الوقت
+                  الذي يحدث فيه بعض العمل العظيم والألم. للوصول إلى أدق التفاصيل
+                  ، ما هو تمريننا؟
+                </p>
+                <a href="#" class="btn btn-outline-warning text-muted fw-bold"
+                  >عرض التفاصيل</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-12">
+            <h2 class="text-muted">الاخبار المهمه</h2>
+            <div
+              class="progress bg-warning w-50 mt-3 mb-5"
+              style="height: 3px"
+            ></div>
+
+            <a href="#" class="text-decoration-none">
+              <div
+                class="mb-3 border-bottom news-content d-flex align-items-center"
+              >
+                <img src="news-thumb-1.jpg" alt="" />
+                <p class="me-3">
+                  أدق التفاصيل ، لا ينبغي لأحد أن يمارس أي نوع من العمل ما لم
+                  يكون شعرة من الألم على أمل .
+                </p>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div
+                class="mb-3 border-bottom news-content d-flex align-items-center"
+              >
+                <img src="news-thumb-1.jpg" alt="" />
+                <p class="me-3">
+                  أدق التفاصيل ، لا ينبغي لأحد أن يمارس أي نوع من العمل ما لم
+                  يكون شعرة من الألم على أمل .
+                </p>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div
+                class="mb-3 border-bottom news-content d-flex align-items-center"
+              >
+                <img src="news-thumb-1.jpg" alt="" />
+                <p class="me-3">
+                  أدق التفاصيل ، لا ينبغي لأحد أن يمارس أي نوع من العمل ما لم
+                  يكون شعرة من الألم على أمل .
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="subscribe w-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="subscribe-content h-50 w-50 text-center text-white pt-5">
+        <h2>اشترك في نشرتنا الإخبارية</h2>
+        <p class="my-4">
+          اشترك في النشرة الإخبارية لدينا وكن أول من يعرف أخبار الشركة والعروض
+          الخاصة والخصومات.
+        </p>
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control rounded-3 btn btn-outline-warning"
+            placeholder="name@example.com"
+            aria-label="Example text with button addon"
+            aria-describedby="button-addon1"
+          />
+          <button
+            class="btn btn-outline-warning text-white rounded-3"
+            type="button"
+            id="button-addon1"
+          >
+            اشترك
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="bar bg-secondary bg-opacity-25 my-5">
+      <div class="container">
+        <div class="row p-5">
+          <h2 class="col-6">مدونة</h2>
+
+          <div class="breadcrumb col-6">
+            <li class="breadcrumb-item active" aria-current="page">المنزل</li>
+            <li class="breadcrumb-item"><a href="#">بلوق</a></li>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 col-12">
+            <div
+              class="blog-item p-2 mb-3 border-bottom border-3 border-warning bg-light"
+            >
+              <div class="blog-desc">
+                <h3>عنوان المدونة يذهب إلى هنا</h3>
+                <span>24 مايو 2021 </span>
+                <p class="my-3">
+                  من أجل الوصول إلى أصغر التفاصيل ، من منا يقوم بأي تمرين بدني
+                  شاق إلا من أجل الحصول على بعض الفوائد منه؟ ولكن من يستطيع أن
+                  ينتقد بحق من يريد أن يكون في تلك المتعة التي لا يترتب عليها
+                  مشكلة.
+                </p>
+                <button class="btn btn-outline-warning">اقرا اكثر</button>
+              </div>
+              <div class="blog-img">
+                <img src="single-blog-image-bg-1.jpg" alt="" />
+              </div>
+            </div>
+            <div
+              class="blog-item p-2 mb-3 border-bottom border-3 border-warning bg-light"
+            >
+              <div class="blog-img">
+                <img src="single-blog-image-bg-1.jpg" alt="" />
+              </div>
+              <div class="blog-desc me-2">
+                <h3>عنوان المدونة يذهب إلى هنا</h3>
+                <span>24 مايو 2021 </span>
+                <p class="my-3">
+                  من أجل الوصول إلى أصغر التفاصيل ، من منا يقوم بأي تمرين بدني
+                  شاق إلا من أجل الحصول على بعض الفوائد منه؟ ولكن من يستطيع أن
+                  ينتقد بحق من يريد أن يكون في تلك المتعة التي لا يترتب عليها
+                  مشكلة.
+                </p>
+                <button class="btn btn-outline-warning">اقرا اكثر</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-12">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="
+              ابحث هنا.....
+              "
+              />
+              <input type="button" value="@" class="input-group-text" />
+            </div>
+            <div class="mt-4">
+              <h5 class="border p-4 text-end mb-0">المشاركات الاخيرة</h5>
+              <ul class="border">
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <p class="mb-2 text-secondary">
+                      عنوان المدونة يذهب إلى هنا
+                    </p>
+                    <small class="text-secondary">24 مايو 2021</small>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <p class="mb-2 text-secondary">
+                      عنوان المدونة يذهب إلى هنا
+                    </p>
+                    <small class="text-secondary">24 مايو 2021</small>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <p class="mb-2 text-secondary">
+                      عنوان المدونة يذهب إلى هنا
+                    </p>
+                    <small class="text-secondary">24 مايو 2021</small>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <p class="mb-2 text-secondary">
+                      عنوان المدونة يذهب إلى هنا
+                    </p>
+                    <small class="text-secondary">24 مايو 2021</small>
+                  </a>
+                </li>
+                <li class="mb-2">
+                  <a href="#" class="text-decoration-none">
+                    <p class="mb-2 text-secondary">
+                      عنوان المدونة يذهب إلى هنا
+                    </p>
+                    <small class="text-secondary">24 مايو 2021</small>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav aria-label="Page navigation example ">
+      <ul class="pagination justify-content-center align-items-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true" class="text-warning">&laquo;</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-warning" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-warning" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link text-warning" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true" class="text-warning">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <footer class="mh-25 bg-dark mt-5 py-3">
+      <div class="container">
+        <div class="footer-content row">
+          <div class="footer-item text-white col-lg-4">
+            <img src="logo -black.png" alt="" srcset="" />
+            <p class="mt-3">نحن مستعدون لمساعدتك دائما.</p>
+            <span class="d-block mt-2">كندا</span>
+            <span class="d-block mt-2">الهاتف: <abi>+ 324-5442-415</abi></span>
+            <span class="d-block mt-2">الفاكس: <abi>+ 324-5442-415</abi></span>
+            <span class="d-block mt-2"
+              >البريد الإلكتروني: <abi>support@construction.com</abi></span
+            >
+          </div>
+          <div class="footer-item text-white col-lg-4">
+            <h4>روابط سريعة</h4>
+            <span class="d-block mt-2"><a href="#">بيت</a></span>
+            <span class="d-block mt-2"> <a href="#">خدمات</a></span>
+            <span class="d-block mt-2"> <a href="#">المشاريع</a></span>
+            <span class="d-block mt-2"><a href="#">صاله العرض</a></span>
+            <span class="d-block mt-2"><a href="#">اتصال</a></span>
+          </div>
+
+          <div class="footer-item text-white col-lg-4">
+            <h4>المنشور الاخير</h4>
+            <a class="d-flex align-items-center mt-4 border-bottom" href="#">
+              <img src="news-thumb-1.jpg" alt="" srcset="" />
+              <div class="me-2">
+                <span class="d-block">شركه بناء</span>
+                <span class="d-block">10 يونيو 2021</span>
+              </div>
+            </a>
+            <a class="d-flex align-items-center mt-2 border-bottom" href="#">
+              <img src="news-thumb-1.jpg" alt="" srcset="" />
+              <div class="me-2">
+                <span class="d-block">شركه بناء</span>
+                <span class="d-block">10 يونيو 2021</span>
+              </div>
+            </a>
+            <a class="d-flex align-items-center mt-2 border-bottom" href="#">
+              <img src="news-thumb-1.jpg" alt="" srcset="" />
+              <div class="me-2">
+                <span class="d-block">شركه بناء</span>
+                <span class="d-block">10 يونيو 2021</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

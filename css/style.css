@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;700;800&display=swap");
+:root {
+  direction: rtl;
+}
+body {
+  font-family: "Cairo", " sans-serif";
+}
+nav a img {
+  height: 2.5rem;
+}
+nav {
+  z-index: 1;
+}
+
+.slide-content {
+  margin-top: 6rem;
+}
+
+@media (max-width: 798px) {
+  .slide-content {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+  }
+  .slide-content h1,
+  .slide-content p {
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .slide-content button {
+    padding: 0;
+    font-size: 14px;
+  }
+  .about button {
+    margin-bottom: 10px;
+  }
+}
+
+.news-item img {
+  height: 15rem;
+  object-fit: cover;
+}
+
+.news-item {
+  width: 90%;
+}
+
+.subscribe {
+  background-image: url("../subscribe-our-newsletter-bg.jpg");
+  background-size: cover;
+  height: 450px;
+}
+.subscribe input::placeholder {
+  color: white;
+}
+
+.subscribe input {
+  cursor: auto;
+}
+
+footer img[src^="logo"] {
+  mix-blend-mode: difference;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  float: right;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.breadcrumb {
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+}
+
+.blog-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+
+.blog-item .blog-desc {
+  flex-grow: 2;
+}
+.blog-item .blog-img {
+  flex-grow: 1;
+}
